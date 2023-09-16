@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Business
 {
-    public class Class1
+    public class PedidoBusiness
     {
     }
 }
