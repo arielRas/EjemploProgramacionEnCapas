@@ -30,15 +30,14 @@
         {
             this.btnSalir = new System.Windows.Forms.Button();
             this.btnMostrarPedidos = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupModificarProducto = new System.Windows.Forms.GroupBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.btnCargarLista = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.txtPrecioActual = new System.Windows.Forms.TextBox();
             this.txtModificarPrecio = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.btnModificarPrecioProducto = new System.Windows.Forms.Button();
-            this.txtBoxProductos2 = new System.Windows.Forms.ComboBox();
+            this.txtBoxProducto2 = new System.Windows.Forms.ComboBox();
             this.groupCargaProducto = new System.Windows.Forms.GroupBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -60,7 +59,7 @@
             this.dataGridPedido = new System.Windows.Forms.DataGridView();
             this.txtBoxCantidad = new System.Windows.Forms.ComboBox();
             this.txtBoxProducto = new System.Windows.Forms.ComboBox();
-            this.groupBox1.SuspendLayout();
+            this.groupModificarProducto.SuspendLayout();
             this.groupCargaProducto.SuspendLayout();
             this.groupGenerarPedido.SuspendLayout();
             this.groupCargarPedido.SuspendLayout();
@@ -75,6 +74,7 @@
             this.btnSalir.TabIndex = 11;
             this.btnSalir.Text = "SALIR";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // btnMostrarPedidos
             // 
@@ -84,46 +84,37 @@
             this.btnMostrarPedidos.TabIndex = 10;
             this.btnMostrarPedidos.Text = "MOSTRAR PEDIDOS REALIZADOS";
             this.btnMostrarPedidos.UseVisualStyleBackColor = true;
+            this.btnMostrarPedidos.Click += new System.EventHandler(this.btnMostrarPedidos_Click);
             // 
-            // groupBox1
+            // groupModificarProducto
             // 
-            this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Controls.Add(this.btnCargarLista);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.txtPrecioActual);
-            this.groupBox1.Controls.Add(this.txtModificarPrecio);
-            this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.btnModificarPrecioProducto);
-            this.groupBox1.Controls.Add(this.txtBoxProductos2);
-            this.groupBox1.Location = new System.Drawing.Point(189, 232);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(308, 205);
-            this.groupBox1.TabIndex = 9;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Modificar precio producto";
+            this.groupModificarProducto.Controls.Add(this.label9);
+            this.groupModificarProducto.Controls.Add(this.label5);
+            this.groupModificarProducto.Controls.Add(this.txtPrecioActual);
+            this.groupModificarProducto.Controls.Add(this.txtModificarPrecio);
+            this.groupModificarProducto.Controls.Add(this.label7);
+            this.groupModificarProducto.Controls.Add(this.btnModificarPrecioProducto);
+            this.groupModificarProducto.Controls.Add(this.txtBoxProducto2);
+            this.groupModificarProducto.Location = new System.Drawing.Point(189, 232);
+            this.groupModificarProducto.Name = "groupModificarProducto";
+            this.groupModificarProducto.Size = new System.Drawing.Size(308, 205);
+            this.groupModificarProducto.TabIndex = 9;
+            this.groupModificarProducto.TabStop = false;
+            this.groupModificarProducto.Text = "Modificar precio producto";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(20, 72);
+            this.label9.Location = new System.Drawing.Point(53, 72);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(69, 13);
             this.label9.TabIndex = 14;
             this.label9.Text = "Precio actual";
             // 
-            // btnCargarLista
-            // 
-            this.btnCargarLista.Location = new System.Drawing.Point(219, 23);
-            this.btnCargarLista.Name = "btnCargarLista";
-            this.btnCargarLista.Size = new System.Drawing.Size(83, 42);
-            this.btnCargarLista.TabIndex = 12;
-            this.btnCargarLista.Text = "ACTUALIZAR LISTA";
-            this.btnCargarLista.UseVisualStyleBackColor = true;
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(140, 72);
+            this.label5.Location = new System.Drawing.Point(173, 72);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(71, 13);
             this.label5.TabIndex = 10;
@@ -132,14 +123,14 @@
             // txtPrecioActual
             // 
             this.txtPrecioActual.Enabled = false;
-            this.txtPrecioActual.Location = new System.Drawing.Point(23, 88);
+            this.txtPrecioActual.Location = new System.Drawing.Point(56, 88);
             this.txtPrecioActual.Name = "txtPrecioActual";
             this.txtPrecioActual.Size = new System.Drawing.Size(65, 20);
             this.txtPrecioActual.TabIndex = 13;
             // 
             // txtModificarPrecio
             // 
-            this.txtModificarPrecio.Location = new System.Drawing.Point(143, 88);
+            this.txtModificarPrecio.Location = new System.Drawing.Point(176, 88);
             this.txtModificarPrecio.Name = "txtModificarPrecio";
             this.txtModificarPrecio.Size = new System.Drawing.Size(65, 20);
             this.txtModificarPrecio.TabIndex = 9;
@@ -155,20 +146,22 @@
             // 
             // btnModificarPrecioProducto
             // 
-            this.btnModificarPrecioProducto.Location = new System.Drawing.Point(46, 138);
+            this.btnModificarPrecioProducto.Location = new System.Drawing.Point(79, 138);
             this.btnModificarPrecioProducto.Name = "btnModificarPrecioProducto";
             this.btnModificarPrecioProducto.Size = new System.Drawing.Size(144, 38);
             this.btnModificarPrecioProducto.TabIndex = 5;
             this.btnModificarPrecioProducto.Text = "MODIFICAR PRECIO";
             this.btnModificarPrecioProducto.UseVisualStyleBackColor = true;
+            this.btnModificarPrecioProducto.Click += new System.EventHandler(this.btnModificarPrecioProducto_Click);
             // 
-            // txtBoxProductos2
+            // txtBoxProducto2
             // 
-            this.txtBoxProductos2.FormattingEnabled = true;
-            this.txtBoxProductos2.Location = new System.Drawing.Point(22, 34);
-            this.txtBoxProductos2.Name = "txtBoxProductos2";
-            this.txtBoxProductos2.Size = new System.Drawing.Size(186, 21);
-            this.txtBoxProductos2.TabIndex = 0;
+            this.txtBoxProducto2.FormattingEnabled = true;
+            this.txtBoxProducto2.Location = new System.Drawing.Point(22, 34);
+            this.txtBoxProducto2.Name = "txtBoxProducto2";
+            this.txtBoxProducto2.Size = new System.Drawing.Size(259, 21);
+            this.txtBoxProducto2.TabIndex = 0;
+            this.txtBoxProducto2.SelectionChangeCommitted += new System.EventHandler(this.txtBoxProducto2_SelectionChangeCommitted);
             // 
             // groupCargaProducto
             // 
@@ -210,6 +203,7 @@
             this.btnAltaProducto.TabIndex = 13;
             this.btnAltaProducto.Text = "ALTA DE PRODUCTO";
             this.btnAltaProducto.UseVisualStyleBackColor = true;
+            this.btnAltaProducto.Click += new System.EventHandler(this.btnAltaProducto_Click);
             // 
             // txtNuevoPrecio
             // 
@@ -261,6 +255,7 @@
             this.btnGenerarPedido.TabIndex = 0;
             this.btnGenerarPedido.Text = "GENERAR PEDIDO";
             this.btnGenerarPedido.UseVisualStyleBackColor = true;
+            this.btnGenerarPedido.Click += new System.EventHandler(this.btnGenerarPedido_Click);
             // 
             // groupCargarPedido
             // 
@@ -299,6 +294,7 @@
             this.btnQuitarProducto.TabIndex = 6;
             this.btnQuitarProducto.Text = "QUITAR";
             this.btnQuitarProducto.UseVisualStyleBackColor = true;
+            this.btnQuitarProducto.Click += new System.EventHandler(this.btnQuitarProducto_Click);
             // 
             // txtPrecio
             // 
@@ -316,6 +312,7 @@
             this.btnAgregarProducto.TabIndex = 2;
             this.btnAgregarProducto.Text = "AGREGAR";
             this.btnAgregarProducto.UseVisualStyleBackColor = true;
+            this.btnAgregarProducto.Click += new System.EventHandler(this.btnAgregarProducto_Click);
             // 
             // label2
             // 
@@ -343,6 +340,7 @@
             this.btnConfirmarPedido.TabIndex = 5;
             this.btnConfirmarPedido.Text = "CONFIRMAR PEDIDO";
             this.btnConfirmarPedido.UseVisualStyleBackColor = true;
+            this.btnConfirmarPedido.Click += new System.EventHandler(this.btnConfirmarPedido_Click);
             // 
             // dataGridPedido
             // 
@@ -378,6 +376,7 @@
             this.txtBoxProducto.Name = "txtBoxProducto";
             this.txtBoxProducto.Size = new System.Drawing.Size(186, 21);
             this.txtBoxProducto.TabIndex = 0;
+            this.txtBoxProducto.SelectionChangeCommitted += new System.EventHandler(this.txtBoxProducto_SelectionChangeCommitted);
             // 
             // Form1
             // 
@@ -386,14 +385,15 @@
             this.ClientSize = new System.Drawing.Size(965, 446);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnMostrarPedidos);
-            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.groupModificarProducto);
             this.Controls.Add(this.groupCargaProducto);
             this.Controls.Add(this.groupGenerarPedido);
             this.Controls.Add(this.groupCargarPedido);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.groupModificarProducto.ResumeLayout(false);
+            this.groupModificarProducto.PerformLayout();
             this.groupCargaProducto.ResumeLayout(false);
             this.groupCargaProducto.PerformLayout();
             this.groupGenerarPedido.ResumeLayout(false);
@@ -409,15 +409,14 @@
 
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Button btnMostrarPedidos;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupModificarProducto;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button btnCargarLista;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtPrecioActual;
         private System.Windows.Forms.TextBox txtModificarPrecio;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnModificarPrecioProducto;
-        private System.Windows.Forms.ComboBox txtBoxProductos2;
+        private System.Windows.Forms.ComboBox txtBoxProducto2;
         private System.Windows.Forms.GroupBox groupCargaProducto;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label6;

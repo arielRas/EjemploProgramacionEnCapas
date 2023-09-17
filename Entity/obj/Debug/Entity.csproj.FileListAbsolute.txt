@@ -1,0 +1,6 @@
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\Entity\bin\Debug\Entity.dll
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\Entity\bin\Debug\Entity.pdb
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\Entity\obj\Debug\Entity.csproj.AssemblyReference.cache
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\Entity\obj\Debug\Entity.csproj.CoreCompileInputs.cache
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\Entity\obj\Debug\Entity.dll
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\Entity\obj\Debug\Entity.pdb

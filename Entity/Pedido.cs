@@ -8,5 +8,15 @@ namespace Entity
 {
     public class Pedido
     {
+        private int id;
+
+        private Int64 dni;
+
+        private DateTime fechaPedido;
+
+
+        public int Id { get => id; set => id = value; }
+        public long Dni { get => dni; set => dni = value; }
+        public DateTime FechaPedido { get => fechaPedido; set => fechaPedido = value; }
     }
 }

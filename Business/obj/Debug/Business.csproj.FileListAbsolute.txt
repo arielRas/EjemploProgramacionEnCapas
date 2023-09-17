@@ -1,0 +1,11 @@
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\Business\bin\Debug\Business.dll
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\Business\bin\Debug\Business.pdb
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\Business\bin\Debug\DAL.dll
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\Business\bin\Debug\Entity.dll
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\Business\bin\Debug\DAL.pdb
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\Business\bin\Debug\Entity.pdb
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\Business\obj\Debug\Business.csproj.AssemblyReference.cache
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\Business\obj\Debug\Business.csproj.CoreCompileInputs.cache
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\Business\obj\Debug\Business.csproj.CopyComplete
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\Business\obj\Debug\Business.dll
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\Business\obj\Debug\Business.pdb

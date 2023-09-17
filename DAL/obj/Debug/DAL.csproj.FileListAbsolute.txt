@@ -1,0 +1,9 @@
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\DAL\bin\Debug\DAL.dll
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\DAL\bin\Debug\DAL.pdb
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\DAL\bin\Debug\Entity.dll
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\DAL\bin\Debug\Entity.pdb
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\DAL\obj\Debug\DAL.dll
+C:\Ariel\ArielSync\Facultad\2do Año\Cuatrimestre 02\Arquitectura de software\ProgramacionEnCapas\DAL\obj\Debug\DAL.pdb
